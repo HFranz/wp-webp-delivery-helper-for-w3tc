@@ -2,6 +2,7 @@
 
 declare( strict_types=1 );
 
+use PHPUnit\Framework\Attributes\DataProvider;
 use PHPUnit\Framework\TestCase;
 
 /**
@@ -10,7 +11,7 @@ use PHPUnit\Framework\TestCase;
 class AcceptHeaderTest extends TestCase {
 
 	/** @dataProvider acceptHeaderProvider */
-	#[\PHPUnit\Framework\Attributes\DataProvider( 'acceptHeaderProvider' )]
+	#[DataProvider( 'acceptHeaderProvider' )]
 	public function testAcceptsWebp( string $header, bool $expected ): void {
 		$this->assertSame( $expected, W3TC_WebP_Accept_Header::accepts( $header ) );
 	}
@@ -33,4 +34,3 @@ class AcceptHeaderTest extends TestCase {
 		);
 	}
 }
-
