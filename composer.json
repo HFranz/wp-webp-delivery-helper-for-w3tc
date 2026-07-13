@@ -13,8 +13,8 @@
         "classmap": ["tests/"]
     },
     "scripts": {
-        "make-pot": "wp i18n make-pot . languages/wp-w3tc-webp-helper.pot --exclude=node_modules,vendor",
-        "update-po": "wp i18n update-po languages/wp-w3tc-webp-helper.pot languages/",
+        "make-pot": "wp i18n make-pot . languages/w3tc-webp-helper.pot --exclude=node_modules,vendor",
+        "update-po": "wp i18n update-po languages/w3tc-webp-helper.pot languages/",
         "make-php": "wp i18n make-php languages/",
         "lint:php": "phpcs -p",
         "fix:php": "phpcbf -p",
