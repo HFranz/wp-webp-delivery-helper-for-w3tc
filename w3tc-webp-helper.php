@@ -4,7 +4,7 @@
  * Description: Replaces image URLs in post content with WebP versions when the browser supports WebP, based on W3 Total Cache ImageService conversion status.
  * Author: Heinrich Franz
  * Author URI: https://sevmatic.com
- * Plugin URI: https://github.com/HFranz/wp-w3tc-webp-helper
+ * Plugin URI: https://sevmatic.com/?plugin=w3tc-webp-helper&source=wordpress
  * License: GPLv2 or later
  * License URI: https://www.gnu.org/licenses/gpl-2.0.html
  * Version: 1.0

@@ -31,7 +31,7 @@ This is an independent, unofficial add-on and is not affiliated with, endorsed b
 
 == Installation ==
 
-1. Upload the `wp-w3tc-webp-helper` folder to the `/wp-content/plugins/` directory.
+1. Upload the `w3tc-webp-helper` folder to the `/wp-content/plugins/` directory.
 2. Activate the plugin through the **Plugins** menu in WordPress.
 3. Ensure W3 Total Cache is installed and that images have been converted via W3TC ImageService.
 
