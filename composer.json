@@ -1,24 +1,22 @@
 {
-    "name": "hfranz/w3tc-webp-helper",
-    "version": "1.0.0",
-    "description": "Replaces image URLs in post content with WebP versions based on W3TC ImageService status.",
-    "license": "GPL-2.0-or-later",
-    "require": {
-        "php": ">=8.0"
-    },
-    "require-dev": {
-        "phpunit/phpunit": "^11.5.56"
-    },
-    "autoload-dev": {
-        "classmap": ["tests/"]
-    },
-    "scripts": {
-        "make-pot": "wp i18n make-pot . languages/w3tc-webp-helper.pot --exclude=node_modules,vendor",
-        "update-po": "wp i18n update-po languages/w3tc-webp-helper.pot languages/",
-        "make-php": "wp i18n make-php languages/",
-        "lint:php": "phpcs -p",
-        "fix:php": "phpcbf -p",
-        "test": "phpunit"
-    }
+  "require": {
+    "php": ">=8.0"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^11.5.56"
+  },
+  "autoload-dev": {
+    "classmap": [
+      "tests/"
+    ]
+  },
+  "scripts": {
+    "make-pot": "wp i18n make-pot . languages/w3tc-webp-helper.pot --exclude=node_modules,vendor",
+    "update-po": "wp i18n update-po languages/w3tc-webp-helper.pot languages/",
+    "make-php": "wp i18n make-php languages/",
+    "lint:php": "phpcs -p",
+    "fix:php": "phpcbf -p",
+    "test": "phpunit"
+  }
 }
 
