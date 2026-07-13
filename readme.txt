@@ -14,6 +14,8 @@ Replaces image URLs in post content with WebP versions when the browser supports
 
 W3TC WebP Helper is a lightweight companion plugin for [W3 Total Cache](https://wordpress.org/plugins/w3-total-cache/) that automatically serves WebP images to browsers that support them.
 
+This is an independent, unofficial add-on and is not affiliated with, endorsed by, or sponsored by BoldGrid / W3 EDGE, the makers of W3 Total Cache. "W3 Total Cache" is a trademark of its respective owner and is used here only to describe compatibility.
+
 **How it works:**
 
 1. When a visitor requests a page, the plugin checks the HTTP `Accept` header to determine whether the browser supports WebP.

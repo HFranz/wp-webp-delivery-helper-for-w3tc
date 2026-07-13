@@ -9,10 +9,10 @@
  * License URI: https://www.gnu.org/licenses/gpl-2.0.html
  * Version: 1.0
  * Requires at least: 6.0
- * Requires PHP: 8.5
+ * Requires PHP: 8.0
  * Requires Plugins: w3-total-cache
  *
- * php version 8.5.0
+ * php version 8.0
  *
  * @package W3tcWebpHelper
  */
