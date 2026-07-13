@@ -53,6 +53,7 @@ Yes. The plugin replaces both `src` / `srcset` and `data-src` / `data-srcset` at
 
 = 2.0 =
 * Rename plugin to "WebP Delivery Helper for W3TC" to avoid confusion with W3 Total Cache plugin.
+* Add translation support and German translation.
 
 = 1.0 =
 * Initial release.
