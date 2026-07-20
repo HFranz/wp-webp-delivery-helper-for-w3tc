@@ -1,7 +1,7 @@
 <?php
 /**
  * Plugin Name: SEV Rewrite-Free WebP for W3TC
- * Description: Replaces image URLs in post content with WebP versions when supported by the browser and when W3 Total Cache ImageService has successfully generated a WebP version.
+ * Description: Replaces image URLs with WebP versions when supported and available through W3 Total Cache ImageService.
  * Author: Heinrich Franz
  * Author URI: https://sevmatic.com
  * Plugin URI: https://github.com/HFranz/wp-sev-rewrite-free-webp-for-w3tc
